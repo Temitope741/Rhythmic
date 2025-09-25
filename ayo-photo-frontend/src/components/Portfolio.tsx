@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { X } from 'lucide-react';
+import ayophoto from '../assets/ayophoto2.jpg';
+import ayophoto3 from '../assets/ayophoto3.jpg'; 
 
 const Portfolio = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  
+
   const portfolioImages = [
     {
       src: "https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -20,10 +22,10 @@ const Portfolio = () => {
       src: "https://images.pexels.com/photos/1708528/pexels-photo-1708528.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-      src: "src/assets/ayophoto2.jpg?auto=compress&cs=tinysrgb&w=600 objectfit-cover",
+      src: ayophoto,
     },
     {
-      src: "src/assets/ayophoto3.jpg",
+      src: ayophoto3,
     },
     {
       src: "https://images.pexels.com/photos/1102341/pexels-photo-1102341.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -50,12 +52,12 @@ const Portfolio = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {portfolioImages.map((image, index) => (
-            <div 
+            <div
               key={index}
               className="group relative overflow-hidden rounded-xl cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
               onClick={() => setSelectedImage(image.src)}
             >
-              <img 
+              <img
                 src={image.src}
                 alt={image.title}
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
@@ -80,7 +82,7 @@ const Portfolio = () => {
               >
                 <X className="w-8 h-8" />
               </button>
-              <img 
+              <img
                 src={selectedImage}
                 alt="Portfolio image"
                 className="max-w-full max-h-full object-contain rounded-lg"

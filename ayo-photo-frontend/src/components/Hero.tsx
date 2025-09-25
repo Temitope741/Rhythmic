@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import heroImg from '../assets/ayoshot.jpg';
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -14,7 +15,7 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img 
-          src="src/assets/ayoshot.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          src={heroImg}
           alt="Professional photography"
           className="w-full h-full object-cover"
         />
