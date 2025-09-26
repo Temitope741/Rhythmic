@@ -2,13 +2,15 @@ import React, { useState } from 'react';
 import { X } from 'lucide-react';
 import ayophoto from '../assets/ayophoto2.jpg';
 import ayophoto3 from '../assets/ayophoto3.jpg'; 
-
+import ruger1 from '../assets/ruger1.jpg';
+import ruger4 from '../assets/ruger4.jpg';
+import ruger3 from '../assets/ruger3.jpg';
 const Portfolio = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const portfolioImages = [
     {
-      src: "https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&w=600",
+      src: ruger4 ,
       category: "",
       title: ""
     },
@@ -19,7 +21,7 @@ const Portfolio = () => {
       src: "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-      src: "https://images.pexels.com/photos/1708528/pexels-photo-1708528.jpeg?auto=compress&cs=tinysrgb&w=600",
+      src: ruger1,
     },
     {
       src: ayophoto,
@@ -34,7 +36,7 @@ const Portfolio = () => {
       src: "https://images.pexels.com/photos/3865711/pexels-photo-3865711.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-      src: "https://images.pexels.com/photos/1445527/pexels-photo-1445527.jpeg?auto=compress&cs=tinysrgb&w=600",
+      src: ruger3,
     }
   ];
 

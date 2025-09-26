@@ -7,7 +7,7 @@ const Services = () => {
       icon: Heart,
       title: "Wedding Photography",
       description: "Complete wedding day coverage from preparation to reception",
-      price: "Starting at ₦1,800,000",
+      price: "Starting at ₦1,200,000",
       features: ["8-10 hours coverage", "500+ edited photos", "Online gallery", "Print release"],
       image: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -23,7 +23,7 @@ const Services = () => {
       icon: Briefcase,
       title: "Branding Photography",
       description: "Professional headshots for business/products and brand photography",
-      price: "Starting at ₦500,000",
+      price: "Starting at ₦400,000",
       features: ["Professional lighting", "Multiple looks", "High-res files", "Same-day editing"],
       image: "https://images.pexels.com/photos/1884581/pexels-photo-1884581.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -31,7 +31,7 @@ const Services = () => {
       icon: Users,
       title: "Event Photography",
       description: "Corporate events, parties, and special celebrations",
-      price: "Starting at ₦820,000",
+      price: "Starting at ₦620,000",
       features: ["Full event coverage", "Candid moments", "Group photos", "Quick turnaround"],
       image: "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=600"
     }

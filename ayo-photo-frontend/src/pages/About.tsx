@@ -1,5 +1,6 @@
 import React from 'react';
 import { Award, Camera, Heart, Users } from 'lucide-react';
+import photo1000 from '../assets/photo1000.jpg';
 
 const About = () => {
   const stats = [
@@ -54,7 +55,7 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
               <img 
-                src="src/assets/photo1000.jpg"
+                src={photo1000}
                 alt="Ayomide Babs - Professional Photographer"
                 className="rounded-2xl shadow-2xl w-full max-w-md mx-auto"
               />
