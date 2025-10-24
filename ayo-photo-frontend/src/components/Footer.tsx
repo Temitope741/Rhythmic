@@ -7,9 +7,8 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Twitter, href: "#", label: "Twitter" }
+    { icon: Instagram, href: "https://www.instagram.com/rhythmic_shot1/?igsh=MWlrcjRib3RpYnl3dA%3D%3D&utm_source=qr#", label: "Instagram" },
+    { icon: Twitter, href: "https://x.com/ayomide_babs1?s=21", label: "Twitter" }
   ];
 
   const scrollToSection = (sectionId: string) => {
@@ -53,7 +52,7 @@ const Footer = () => {
                 className="block text-gray-400 hover:text-white transition-colors"
               > Home
               </button>
-               {/* <Link
+              {/* <Link
                 to="/about"
                 className="block text-gray-400 hover:text-white transition-colors"
               > About
@@ -63,11 +62,11 @@ const Footer = () => {
                 className="block text-gray-400 hover:text-white transition-colors"
               > Portfolio
               </button>
-               <Link
+              <Link
                 to="/services"
                 className="block text-gray-400 hover:text-white transition-colors"
               > Services
-              </Link> 
+              </Link>
               <button
                 onClick={() => scrollToSection('contact')}
                 className="block text-gray-400 hover:text-white transition-colors"
@@ -96,6 +95,16 @@ const Footer = () => {
                 <MessageCircle className="w-4 h-4 text-green-500" />
                 <span>WhatsApp: 0818 189 3795</span>
               </a>
+              <a
+                href="https://www.instagram.com/ayomide_babs1/?igsh=MXNkZmZta3h1ZmNlYw%3D%3D&utm_source=qr#"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:text-pink-500 transition-colors"
+              >
+                <MessageCircle className="w-4 h-4 text-pink-500" />
+                <span>Instagram: ayomide_babs1</span>
+              </a>
+
               <p className="text-gray-400">Lagos, Nigeria</p>
             </div>
           </div>
