@@ -36,24 +36,24 @@ const Header = () => {
               className="text-gray-700 hover:text-gray-900 transition-colors font-medium"
             >    Home
             </button>
-            <Link 
+            {/* <Link 
               to="/about"
               className="text-gray-700 hover:text-gray-900 transition-colors font-medium"
             >
               About
-            </Link>
+            </Link> */}
             <button 
               onClick={() => scrollToSection('portfolio', '/')}
               className="text-gray-700 hover:text-gray-900 transition-colors font-medium"
             >
               Portfolio
             </button>
-            {/* <Link
+           <Link
               to="/services"
               className="text-gray-700 hover:text-gray-900 transition-colors font-medium"
             >
               Services 
-           </Link> */}
+           </Link>
             <button 
               onClick={() => scrollToSection('contact', '/')}
               className="bg-gray-800 text-white px-6 py-2 rounded-lg hover:bg-gray-700 transition-colors font-medium"
@@ -81,20 +81,20 @@ const Header = () => {
               >
                 Home
               </button>
-              <Link 
+              {/* <Link  
                 to="/about"
                 onClick={() => setIsMenuOpen(false)}
                 className="text-gray-700 hover:text-gray-900 transition-colors font-medium text-left"
               >
                 About
-              </Link>
+              </Link>*/}
               <button 
                 onClick={() => scrollToSection('portfolio', '/')}
                 className="text-gray-700 hover:text-gray-900 transition-colors font-medium text-left"
               >
                 Portfolio
               </button>
-              <Link 
+              <Link  
                 to="/services"
                 onClick={() => setIsMenuOpen(false)}
                 className="text-gray-700 hover:text-gray-900 transition-colors font-medium text-left"

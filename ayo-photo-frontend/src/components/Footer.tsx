@@ -53,21 +53,21 @@ const Footer = () => {
                 className="block text-gray-400 hover:text-white transition-colors"
               > Home
               </button>
-              <Link
+               {/* <Link
                 to="/about"
                 className="block text-gray-400 hover:text-white transition-colors"
               > About
-              </Link>
+             </Link> */}
               <button
                 onClick={() => scrollToSection('portfolio')}
                 className="block text-gray-400 hover:text-white transition-colors"
               > Portfolio
               </button>
-              {/* <Link
+               <Link
                 to="/services"
                 className="block text-gray-400 hover:text-white transition-colors"
               > Services
-              </Link> */}
+              </Link> 
               <button
                 onClick={() => scrollToSection('contact')}
                 className="block text-gray-400 hover:text-white transition-colors"

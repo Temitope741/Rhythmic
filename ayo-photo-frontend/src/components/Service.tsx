@@ -7,7 +7,6 @@ const Services = () => {
       icon: Heart,
       title: "Wedding Photography",
       description: "Complete wedding day coverage from preparation to reception",
-      price: "Starting at ₦1,200,000",
       features: ["8-10 hours coverage", "500+ edited photos", "Online gallery", "Print release"],
       image: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -15,7 +14,6 @@ const Services = () => {
       icon: Camera,
       title: "Portrait Sessions",
       description: "Individual, couple, and family portrait sessions",
-      price: "Starting at ₦350,000",
       features: ["1-2 hour session", "30+ edited photos", "Multiple outfits", "Location flexibility"],
       image: "https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -23,7 +21,6 @@ const Services = () => {
       icon: Briefcase,
       title: "Branding Photography",
       description: "Professional headshots for business/products and brand photography",
-      price: "Starting at ₦400,000",
       features: ["Professional lighting", "Multiple looks", "High-res files", "Same-day editing"],
       image: "https://images.pexels.com/photos/1884581/pexels-photo-1884581.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
@@ -31,7 +28,6 @@ const Services = () => {
       icon: Users,
       title: "Event Photography",
       description: "Corporate events, parties, and special celebrations",
-      price: "Starting at ₦620,000",
       features: ["Full event coverage", "Candid moments", "Group photos", "Quick turnaround"],
       image: "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
@@ -71,7 +67,6 @@ const Services = () => {
                   <h3 className="text-2xl font-bold text-gray-800">{service.title}</h3>
                 </div>
                 <p className="text-gray-600 mb-4 leading-relaxed">{service.description}</p>
-                <p className="text-2xl font-bold text-amber-600 mb-6">{service.price}</p>
                 <ul className="space-y-2">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="flex items-center text-gray-600">

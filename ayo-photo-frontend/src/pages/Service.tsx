@@ -7,7 +7,6 @@ const Services = () => {
       icon: Heart,
       title: "Wedding Photography",
       description: "Complete wedding day coverage from preparation to reception",
-      price: "Starting at ₦1,800,000",
       features: [
         "8-10 hours coverage",
         "500+ edited photos",
@@ -23,7 +22,6 @@ const Services = () => {
       icon: Camera,
       title: "Portrait Sessions",
       description: "Individual, couple, and family portrait sessions",
-      price: "Starting at ₦350,000",
       features: [
         "1-2 hour session",
         "30+ edited photos",
@@ -38,7 +36,6 @@ const Services = () => {
       icon: Briefcase,
       title: "Commercial Photography",
       description: "Professional headshots and brand photography",
-      price: "Starting at ₦500,000",
       features: [
         "Professional lighting",
         "Multiple looks",
@@ -53,7 +50,6 @@ const Services = () => {
       icon: Users,
       title: "Event Photography",
       description: "Corporate events, parties, and special celebrations",
-      price: "Starting at ₦820,000",
       features: [
         "Full event coverage",
         "Candid moments",
@@ -155,7 +151,6 @@ const Services = () => {
                     <h3 className="text-2xl font-bold text-gray-800">{service.title}</h3>
                   </div>
                   <p className="text-gray-600 mb-4 leading-relaxed">{service.description}</p>
-                  <p className="text-3xl font-bold text-amber-600 mb-6">{service.price}</p>
                   <ul className="space-y-3 mb-6">
                     {service.features.map((feature, idx) => (
                       <li key={idx} className="flex items-center text-gray-600">
