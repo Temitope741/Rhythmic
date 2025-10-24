@@ -5,6 +5,11 @@ import ayophoto3 from '../assets/ayophoto3.jpg';
 import ruger1 from '../assets/ruger1.jpg';
 import ruger4 from '../assets/ruger4.jpg';
 import ruger3 from '../assets/ruger3.jpg';
+import Rhythmic3 from '../assets/Rhythmic3.jpg';
+import Rhythmic from '../assets/Rhythmic.jpg';
+import ayoshot from '../assets/ayoshot.jpg';
+import Rhythmic4 from '../assets/Rhythmic4.jpg';
+import Rhythmic6 from '../assets/Rhythmic6.jpg';
 const Portfolio = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
@@ -15,10 +20,10 @@ const Portfolio = () => {
       title: ""
     },
     {
-      src: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=600",
+      src: Rhythmic3,
     },
     {
-      src: "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=600",
+      src: Rhythmic,
     },
     {
       src: ruger1,
@@ -30,13 +35,13 @@ const Portfolio = () => {
       src: ayophoto3,
     },
     {
-      src: "https://images.pexels.com/photos/1102341/pexels-photo-1102341.jpeg?auto=compress&cs=tinysrgb&w=600",
-    },
-    {
-      src: "https://images.pexels.com/photos/3865711/pexels-photo-3865711.jpeg?auto=compress&cs=tinysrgb&w=600",
-    },
-    {
       src: ruger3,
+    },
+    {
+      src: Rhythmic6,
+    },
+    {
+      src: Rhythmic4,
     }
   ];
 

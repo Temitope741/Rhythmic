@@ -48,12 +48,12 @@ const Header = () => {
             >
               Portfolio
             </button>
-            <Link 
+            {/* <Link
               to="/services"
               className="text-gray-700 hover:text-gray-900 transition-colors font-medium"
             >
-              Services
-            </Link>
+              Services 
+           </Link> */}
             <button 
               onClick={() => scrollToSection('contact', '/')}
               className="bg-gray-800 text-white px-6 py-2 rounded-lg hover:bg-gray-700 transition-colors font-medium"

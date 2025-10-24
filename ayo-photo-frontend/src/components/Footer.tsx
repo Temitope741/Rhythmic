@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Camera, Instagram, Facebook, Twitter, Mail, Phone } from 'lucide-react';
+import { MessageCircle } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -26,12 +27,12 @@ const Footer = () => {
               <span className="text-2xl font-bold">Ayomide Babs</span>
             </Link>
             <p className="text-gray-400 mb-6 max-w-md leading-relaxed">
-              Professional photographer specializing in weddings, portraits, and commercial photography. 
+              Professional photographer specializing in weddings, portraits, and commercial photography.
               Capturing life's beautiful moments with artistic vision and technical expertise.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (
-                <a 
+                <a
                   key={index}
                   href={social.href}
                   aria-label={social.label}
@@ -47,27 +48,27 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <nav className="space-y-2">
-              <button 
+              <button
                 onClick={() => scrollToSection('home')}
                 className="block text-gray-400 hover:text-white transition-colors"
               > Home
               </button>
-              <Link 
+              <Link
                 to="/about"
                 className="block text-gray-400 hover:text-white transition-colors"
               > About
               </Link>
-              <button 
+              <button
                 onClick={() => scrollToSection('portfolio')}
                 className="block text-gray-400 hover:text-white transition-colors"
               > Portfolio
               </button>
-              <Link 
+              {/* <Link
                 to="/services"
                 className="block text-gray-400 hover:text-white transition-colors"
               > Services
-              </Link>
-              <button 
+              </Link> */}
+              <button
                 onClick={() => scrollToSection('contact')}
                 className="block text-gray-400 hover:text-white transition-colors"
               >  Contact
@@ -79,19 +80,21 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <div className="space-y-3">
-              <a 
+              <a
                 href="mailto:hassanbabsayomide@gmail.com"
                 className="flex items-center space-x-2 text-gray-400 hover:text-white transition-colors"
               >
                 <Mail className="w-4 h-4" />
                 <span>hassanbabsayomide@gmail.com</span>
               </a>
-              <a 
-                href="tel:08181893795"
-                className="flex items-center space-x-2 text-gray-400 hover:text-white transition-colors"
+              <a
+                href="https://wa.link/tah1lt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:text-green-500 transition-colors"
               >
-                <Phone className="w-4 h-4" />
-                <span>08181893795</span>
+                <MessageCircle className="w-4 h-4 text-green-500" />
+                <span>WhatsApp: 0818 189 3795</span>
               </a>
               <p className="text-gray-400">Lagos, Nigeria</p>
             </div>
@@ -101,7 +104,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {currentYear} Ayomide Babs Photography. All rights reserved.
+              © {currentYear} Rhythmic shot. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
