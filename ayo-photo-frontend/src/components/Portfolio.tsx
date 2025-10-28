@@ -3,7 +3,7 @@ import { X } from 'lucide-react';
 import ayophoto from '../assets/ayophoto2.jpg';
 import ayophoto3 from '../assets/ayophoto3.jpg'; 
 import ruger1 from '../assets/ruger1.jpg';
-import ruger4 from '../assets/ruger4.jpg';
+import ruger4 from '../assets/Rhythmic56.jpg';
 import ruger3 from '../assets/ruger3.jpg';
 import Rhythmic3 from '../assets/Rhythmic3.jpg';
 import Rhythmic from '../assets/Rhythmic.jpg';
