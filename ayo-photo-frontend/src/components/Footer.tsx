@@ -7,7 +7,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Instagram, href: "https://www.instagram.com/rhythmic_shot1/?igsh=MWlrcjRib3RpYnl3dA%3D%3D&utm_source=qr#", label: "Instagram" },
+    { icon: Instagram, href: "https://www.instagram.com/ayomide_babs1/?igsh=MXNkZmZta3h1ZmNlYw%3D%3D&utm_source=qr#", label: "Instagram" },
     { icon: Twitter, href: "https://x.com/ayomide_babs1?s=21", label: "Twitter" }
   ];
 
@@ -96,13 +96,13 @@ const Footer = () => {
                 <span>WhatsApp: 0818 189 3795</span>
               </a>
               <a
-                href="https://www.instagram.com/ayomide_babs1/?igsh=MXNkZmZta3h1ZmNlYw%3D%3D&utm_source=qr#"
+                href="https://www.instagram.com/rhythmic_shot1/?igsh=MWlrcjRib3RpYnl3dA%3D%3D&utm_source=qr#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-pink-500 transition-colors"
               >
                 <MessageCircle className="w-4 h-4 text-pink-500" />
-                <span>Instagram: ayomide_babs1</span>
+                <span>Instagram: rhythmic_shot1</span>
               </a>
 
               <p className="text-gray-400">Lagos, Nigeria</p>

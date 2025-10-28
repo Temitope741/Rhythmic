@@ -7,14 +7,14 @@ const Services = () => {
       icon: Heart,
       title: "Wedding Photography",
       description: "Complete wedding day coverage from preparation to reception",
-      features: ["8-10 hours coverage", "500+ edited photos", "Online gallery", "Print release"],
+      features: ["8-10 hours coverage", "Edited photos", "Online gallery", "Print release"],
       image: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       icon: Camera,
       title: "Portrait Sessions",
       description: "Individual, couple, and family portrait sessions",
-      features: ["1-2 hour session", "30+ edited photos", "Multiple outfits", "Location flexibility"],
+      features: ["1-2 hour session", "Edited photos", "Multiple outfits", "Location flexibility"],
       image: "https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
