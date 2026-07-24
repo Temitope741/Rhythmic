@@ -80,20 +80,22 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <div className="space-y-3">
               <a
-                href="mailto:hassanbabsayomide@gmail.com"
-                className="flex items-center space-x-2 text-gray-400 hover:text-white transition-colors"
-              >
-                <Mail className="w-4 h-4" />
-                <span>hassanbabsayomide@gmail.com</span>
-              </a>
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=rhythmicshot1@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 hover:text-red-500 transition-colors"
+            >
+              <Mail className="w-4 h-4 text-red-500" />
+              <span>rhythmicshot1@gmail.com</span>
+            </a>
               <a
-                href="https://wa.link/tah1lt"
+                href="https://wa.me/2349034753075?text=Hello%20Rhythmic%20Shot,%20I%20would%20like%20to%20book%20a%20photoshoot."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-green-500 transition-colors"
               >
                 <MessageCircle className="w-4 h-4 text-green-500" />
-                <span>WhatsApp: 0818 189 3795</span>
+                <span>WhatsApp: 0903 475 3075</span>
               </a>
               <a
                 href="https://www.instagram.com/rhythmic_shot1/?igsh=MWlrcjRib3RpYnl3dA%3D%3D&utm_source=qr#"
@@ -101,7 +103,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-pink-500 transition-colors"
               >
-                <MessageCircle className="w-4 h-4 text-pink-500" />
+               <Instagram className="w-4 h-4 text-pink-500" />
                 <span>Instagram: rhythmic_shot1</span>
               </a>
 

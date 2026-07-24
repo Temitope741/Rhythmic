@@ -1,7 +1,10 @@
 import React from 'react';
 import { Camera, Heart, Briefcase, Users, Clock, MapPin } from 'lucide-react';
+import { useNavigate } from 'react-router-dom'; // ✅ Import useNavigate
 
 const Services = () => {
+  const navigate = useNavigate(); // ✅ Initialize navigate hook
+
   const services = [
     {
       icon: Heart,
@@ -97,8 +100,9 @@ const Services = () => {
           <p className="text-gray-600 mb-6">
             Custom packages available for unique requirements. All sessions include professional editing and high-resolution images.
           </p>
+          {/* ✅ FIXED BUTTON - Navigate to Contact Page */}
           <button 
-            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => navigate('/home')}
             className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors shadow-lg hover:shadow-xl"
           >
             Get Custom Quote
